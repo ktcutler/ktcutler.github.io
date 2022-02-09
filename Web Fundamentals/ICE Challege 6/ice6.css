@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-columns: 249px 300px;
+    gap: 15px;
+}
+.last {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(196, 109, 52);
+    font-size: 40px;
+    padding: 15px 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.email {
+    border: solid rgb(204, 198, 198) 2px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.name {
+    border: solid rgb(204, 198, 198) 2px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
