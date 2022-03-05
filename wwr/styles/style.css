@@ -52,6 +52,8 @@ body {
 
 header {
     background-color: #B4CDED;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -205,6 +207,10 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #home-grid {
