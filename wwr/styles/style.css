@@ -234,6 +234,30 @@ nav {
     transform: scale(1.1);
 }
 
+.idaho-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: auto;
+    align-self: auto;
+    padding: 20px;
+}
+
+.utah-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: auto;
+    align-self: auto;
+    padding: 20px;
+}
+
+.arizona-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: auto;
+    align-self: auto;
+    padding: 40px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
