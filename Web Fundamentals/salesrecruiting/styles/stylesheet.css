@@ -1,0 +1,77 @@
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    background-color: #738290;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+}
+
+header img {
+    justify-content: flex-start;
+    grid-column: 1/2;
+}
+
+.navigation {
+    text-align: center;
+    margin-left: -200px
+}
+
+
+.title {
+    justify-content: center;
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+nav {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+}
+
+nav a {
+    margin: 100px;
+}
+
+
+.Pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.Pictures img {
+    justify-content: center;
+}
+
+
+
+#background {
+    height: 725px;
+    background-color: #738290;
+}
+
+.images2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.whyvivint {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        justify-content: center;
+    }
+}
