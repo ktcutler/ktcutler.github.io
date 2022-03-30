@@ -7,9 +7,10 @@ header {
     
 }
 
-header img {
+.logo {
     justify-content: flex-start;
     grid-column: 1/2;
+    width: 200px;
 }
 
 .navigation {
@@ -32,14 +33,17 @@ nav {
     text-align: center;
     color: black;
     text-decoration: none;
+    min-width: 250px;
 }
 
-.button {
-    text-align: center;
+#button {
+    display: flex;
+    justify-content: center;
 }
+
 
 nav a {
-    margin: 100px;
+    margin: 25px;
 }
 
 
@@ -47,12 +51,18 @@ nav a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    padding-top: 25px;
+    justify-items: center;
 }
 
-.Pictures img {
+.Pictures img, .images2 img {
     justify-content: center;
+    width: 400px;
+    height: auto;
 }
-
+.Pictures .privatejet {
+    width: 525px;
+}
 
 
 #background {
@@ -64,6 +74,7 @@ nav a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    justify-items: center;
 }
 
 .whyvivint {
@@ -74,4 +85,13 @@ nav a {
     header {
         justify-content: center;
     }
+}
+
+p {
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+h3 {
+    text-align: center;
 }
