@@ -49,6 +49,10 @@ nav a {
     place-items: center;
 }
 
+.cody img, .Cameron img, .Josh img, .Kole img, .Trevor img, .Jaron img, .Ethan img, .aaron img, .Luke img, .Braydon img {
+    width: 300px;
+}
+
 .cody p, .Cameron p, .Josh p, .Kole p, .Trevor p, .Jaron p, .Ethan p, .aaron p, .Luke p, .Braydon p {
     max-width: 400px;
     justify-self: start;
