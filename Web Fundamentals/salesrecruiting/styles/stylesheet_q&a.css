@@ -39,17 +39,18 @@ nav a {
     text-align: center;
     margin-left: -200px
 }
-.cody, .Cameron, .Josh, .Kole, .Trevor, .Jaron, .Ethan, .aaron, .Luke, .Braydon {
+.Pictures {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 20px;
-    place-items: center;
+    padding-top: 25px;
+    justify-items: center;
 }
-.cody img, .Cameron img, .Josh img, .Kole img, .Trevor img, .Jaron img, .Ethan img, .aaron img, .Luke img, .Braydon img {
-    width: 300px;
+.Pictures img, .images2 img {
+    justify-content: center;
+    width: 400px;
+    height: auto;
 }
-.cody p, .Cameron p, .Josh p, .Kole p, .Trevor p, .Jaron p, .Ethan p, .aaron p, .Luke p, .Braydon p {
-    max-width: 400px;
-    justify-self: start;
+.Pictures .privatejet {
+    width: 525px;
 }
